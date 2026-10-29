@@ -193,7 +193,17 @@ exclude = [
 ]
 
 [tool.hatch.build.targets.sdist]
-include = [ "domdf_python_tools", "requirements.txt", "tests", "tox.ini", ".github/milestones.py", "__pkginfo__.py", "doc-source/api/count_demo.py", "doc-source/conf.py", "doc-source/latex_unicode.py",]
+include = [
+    "domdf_python_tools",
+    "requirements.txt",
+    "tests",
+    "tox.ini",
+    ".github/milestones.py",
+    "__pkginfo__.py",
+    "doc-source/api/count_demo.py",
+    "doc-source/conf.py",
+    "doc-source/latex_unicode.py",
+]
 exclude = []
 
 [tool.hatch.build.wheel]
